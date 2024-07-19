@@ -1,20 +1,17 @@
 public class Operators {
     public static void main(String[] args) throws Exception {
-        int a, b;
-        a = 5;
-        b = 2;
-        // String result = "";
-        // if (a == b) {
-        //     result = "true";
-        // } else {
-        //     result = "false";
-        // }
+        boolean condition1 = true;
+        boolean condition2 = true;
 
-        // Ternary operator
-        // String result = a == b ? "true" : "false";
-        int result = a == b ? 1 : 0;
+        if (condition1 && (7>4)) {
+            System.out.println("Both conditions are true");
+        };
 
-        System.out.println(result);
+        if (condition1 || condition2) {
+            System.out.println("At least one condition is true");
+        };
+        
+        System.out.println("The end");
     
     }
 }
