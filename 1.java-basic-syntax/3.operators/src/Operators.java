@@ -1,19 +1,20 @@
 public class Operators {
     public static void main(String[] args) throws Exception {
-        int number = 5;
+        int a, b;
+        a = 5;
+        b = 2;
+        // String result = "";
+        // if (a == b) {
+        //     result = "true";
+        // } else {
+        //     result = "false";
+        // }
 
-        // number = number++;
-        System.out.println(number++); // print 5 and increment later
+        // Ternary operator
+        // String result = a == b ? "true" : "false";
+        int result = a == b ? 1 : 0;
 
-        System.out.println(number);
-
-        boolean variable = true;
-
-        System.out.println(!variable); // just in memory
-        System.out.println(variable); // value not changed
-
-        variable = !variable; // value changed
-
-        System.out.println(variable);
+        System.out.println(result);
+    
     }
 }
