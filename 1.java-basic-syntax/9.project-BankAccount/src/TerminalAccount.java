@@ -16,5 +16,7 @@ public class TerminalAccount {
 
     System.out.println("Hello " + clientName + ", thank you for creating an Account in our bank.");
     System.out.println("Your agency is " + agency + ", account " + account + " and balance of $ " + balance + ".");
+
+    scanner.close();
   }
 }
