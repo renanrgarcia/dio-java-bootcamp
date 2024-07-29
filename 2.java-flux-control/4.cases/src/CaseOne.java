@@ -2,7 +2,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class CaseOne {
   public static void main(String[] args) {
-    Double baseSalary = 2000.0;
+    // Double baseSalary = 2000.0;
     String[] candidates = { "FELIPE", "MÁRCIA", "JULIA", "PAULO", "AUGUSTO", "MÔNICA", "FABRÍCIO", "MIRELA", "DANIELA",
         "JORGE" };
 
