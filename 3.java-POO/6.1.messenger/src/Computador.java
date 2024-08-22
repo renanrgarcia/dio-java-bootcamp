@@ -3,7 +3,7 @@ public class Computador {
         // Não sabemos qual será o serviço escolhido
         ServicoMensagemInstantanea servico = null;
 
-        String servicoEscolhido = "MSN";
+        String servicoEscolhido = "Telegram";
 
         if (servicoEscolhido.equals("MSN")) {
             servico = new MSNMessenger();

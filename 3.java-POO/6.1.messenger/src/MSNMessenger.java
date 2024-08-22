@@ -1,5 +1,4 @@
 public class MSNMessenger extends ServicoMensagemInstantanea {
-
   @Override
   public void enviarMensagem() {
     validarConexao();
@@ -10,5 +9,4 @@ public class MSNMessenger extends ServicoMensagemInstantanea {
   public void receberMensagem() {
     System.out.println("Recebendo mensagem no MSN Messenger");
   }
-
 }
